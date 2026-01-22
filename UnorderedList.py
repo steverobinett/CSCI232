@@ -55,7 +55,7 @@ class UnorderedList:
 
     def search(self, item):
         current = self.head
-        if current is not None:
+        while current is not None:
             if current.data == item:
                 return True
         current = current.next
