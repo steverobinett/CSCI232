@@ -91,26 +91,27 @@ class UnorderedList:
     def index(self, item):
         pass
 
-    def pop(self, pos) -> any:
+    def pop(self, pos):
         pass
     
     def __str__(self):
         return "Not implmented yet"
        
 
-
+#test code
 def main():
     myList = UnorderedList()
+
+    print("Starting list")
     
     # build your list here
-    myList.add(42)
-    myList.add(17)
-    b = myList.search(42)
+    
     
 
     # test the methods here
 
-    print(myList)
+    print("Ending list:")
+    
 
 
 main()
