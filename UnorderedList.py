@@ -55,7 +55,7 @@ class UnorderedList:
 
     def search(self, item):
         current = self.head
-        if current is not None:
+        while current is not None:
             if current.data == item:
                 return True
         current = current.next
@@ -82,15 +82,17 @@ class UnorderedList:
 
     # implement the following methods for the assignment
 
+#append is at the END of the list
     def append(self, item):
         pass
-
+# assume that pos is valid
     def insert(self, pos, item):
         pass
-
+#return index of item. Assume item in list
     def index(self, item):
         pass
 
+#return the data at pos. Assume pos is valid
     def pop(self, pos):
         pass
     
